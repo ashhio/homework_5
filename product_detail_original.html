@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Original - Bun Bun Bake Shop</title>
+</head>
+
+<body>
+<header> 
+    <h1>bun bun bake shop</h1>
+    <address class="addr"><img src="img/phone_icon.png">555-555-5555 <br>
+        <img src="img/location_icon.png">100 Pittsburgh Rd, <br> Pittsburgh, PA 10000</address>
+        
+    <nav id="header_nav">
+        order
+        location
+        about
+        contact
+        <span id="cart"><img src="img/shoppingcart_icon.png">cart</span>
+    </nav>
+</header>
+<main class = "main-margin">
+    <p>Order > <strong>Original</strong></p>
+       
+        <div class="container product-detail">
+            <img class = "product-detail-img" src="img/original_lg_image.png">
+            <div class="product-detail-txt">
+            <h2>original - $4.00</h2>
+            <p>Enjoy our famous mouth-watering cinnamon roll! Hot and fresh from the oven every 
+                morning with just the perfect touch of spice and sweetness to start your day, or 
+                savor as a dessert. On second thought, why not both? </p>
+            <br>
+            <br>
+            <label for="quantity">Quantity</label>
+            <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="glaze">Glaze</label>
+            <br>
+            <button class="reg-button deactivated">none</button>
+            <button class="reg-button deactivated">sugar</button>
+            <button class="reg-button deactivated">vanilla</button>
+            <button class="reg-button deactivated">chocolate</button>
+            <!--
+            <input type="radio" id="none" name="glaze" value="none">
+            <label for="none">none</label>
+            <input type="radio" id="sugar" name="glaze" value="sugar">
+            <label for="sugar">sugar</label>
+            <input type="radio" id="vanilla" name="glaze" value="vanilla">
+            <label for="vanilla">vanilla</label>
+            <input type="radio" id="chocolate" name="glaze" value="chocolate">
+            <label for="chocolate">chocolate</label>
+            -->
+            <br>
+            <br>
+            <br>
+            <button class="big-button">add to cart</button>
+        </div>
+         </div>
+    <p class="ingredients">Ingredients <br>Flour, sugar, salt, yeast, milk, water, butter, eggs, cinnamon, vanilla </p>
+  
+</main>
+
+<footer>
+    <nav>
+        <div class="container center2">
+        <p class="nav-element">home</p>
+        <p class="nav-element">order</p>
+        <p class="nav-element">location</p>
+        <p class="nav-element">about</p>
+        <p class="nav-element">contact</p>
+    </div>
+        <div class="container footer">
+        <address>555-555-5555 <br>
+            100 Pittsburgh Rd, <br> Pittsburgh, PA 10000</address><br>
+        <p>M-F: 9AM - 9 PM <br>
+            Sat: 9AM - 6PM <br>
+            Sun: Closed</p>
+        </div>
+        <p class="align-center">Buns that make you smile :) <br>
+        (c)Bun Bun Bake Shop 2020</p>
+    </nav>
+</footer>
+</body>
+
+</html>

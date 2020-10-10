@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Patrick+Hand+SC&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit; 
+}
+
+body{
+    font-family: 'Open Sans';
+    font-size: 16px;
+   }
+
+h1, h2, h3, button, #header_nav {
+    font-family: 'Patrick Hand SC';
+}
+
+h1{
+    font-size: 72px;
+    display: inline;
+}
+
+h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom:90px;
+}
+
+h3, #header_nav, .big-button{
+    font-size: 36px;
+}
+
+nav{
+    background-color: #FFE7F4;
+}
+
+#cart{
+    float:right;
+}
+
+.container{
+    position: relative;
+}
+
+.splash{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width:100%;
+}
+
+.splash-text{
+    background-color:rgba(255,255,255, 0.65);
+    padding:50px;
+}
+.reg-button{
+    font-size: 24px;
+    margin:10px;
+    padding: 0px 38px 2px 38px;
+    border-radius: 26px;
+    background-color: #FFDDEF;
+    border-color: #ffc3e4;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.big-button{
+    margin:10px;
+    padding: 0px 56px 2px 56px;
+    border-radius: 26px;
+    background-color: #FFDDEF;
+    border-color: #ffc3e4;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.item{
+    display: inline-block;
+    padding: 20px;
+}
+
+.addr{
+    float:right;
+    font-style: normal;
+}
+
+.item-text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width:100%;
+    background-color:rgba(255,255,255, 0.65);
+    
+}
+
+.center1 {
+    text-align: center;
+  }
+
+
+.center2 {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+  }
+
+.item-img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+
+.about-us{
+text-align:center;
+   margin: auto;
+
+  
+  
+
+}
+.about-us-txt{
+    display: inline-block;
+    width:688px;
+    height: 206px;
+    text-align:left;
+    background: #FFFFFF;
+    border: 2px solid #FFC3E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 35px 30px 35px 65px;
+}
+
+.img-right{
+    position: relative;
+   z-index: -1;
+    display: inline-block;  
+    transform: translate(-25%, -10%);
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.nav-element{
+    display:inline-block;
+    padding-right: 150px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.footer{
+    margin-left: 80%;
+}
+
+.main-margin{
+    margin-left:8%;
+    margin-right:8%;
+    margin-top: 60px;
+}
+
+.product-detail-txt > h2{
+    margin-bottom: 12px;
+    text-align:left;
+}
+.product-detail{
+    margin-top: 60px;
+    display:inline-block;
+    width:85%;
+    min-width:1242px;
+}
+
+.product-detail-img{
+    float: left;
+    margin-right: 130px;  
+}
+
+
+.ingredients{
+    box-sizing: border-box;
+    width: 440px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    margin-top: 85px;
+    padding:15px;
+}
+
+.deactivated {
+    background-color: #EBEBEB;
+    border-color: #D6D6D6;
+}
